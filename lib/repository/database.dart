@@ -3,7 +3,7 @@ class Database {
 
   Future<bool> createDatabase() async {
     await Future.delayed(
-      Duration(milliseconds: 100),
+      Duration(seconds: 2),
     );
     this.created = true;
     return created;
