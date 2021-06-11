@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:ps13si/models/notification_model.dart';
 import 'package:ps13si/repository/notification_repository.dart';
 import 'package:ps13si/widgets/notifications_list.dart';
 
+// ignore: must_be_immutable
 class FutureBuilderNotificationList extends StatefulWidget {
   var counter;
 

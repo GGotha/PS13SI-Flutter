@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ps13si/models/notification_model.dart';
 
+// ignore: must_be_immutable
 class NotificationsList extends StatelessWidget {
   NotificationModel notifications;
 

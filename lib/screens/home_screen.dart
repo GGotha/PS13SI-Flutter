@@ -1,13 +1,11 @@
 import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:provider/provider.dart';
 import 'package:ps13si/models/notification_model.dart';
-
 import 'package:ps13si/widgets/custom_app_bar.dart';
 import 'package:ps13si/widgets/future_builder_course_list.dart';
 import 'package:ps13si/widgets/future_builder_notification_list.dart';
-import 'package:ps13si/widgets/notifications_list.dart';
-import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

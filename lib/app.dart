@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ps13si/models/notification_model.dart';
+import 'package:ps13si/screens/course_details_screen.dart';
 import 'package:ps13si/screens/home_screen.dart';
 import 'package:ps13si/screens/login_screen.dart';
 
@@ -18,6 +19,7 @@ class App extends StatelessWidget {
         routes: {
           "/": (context) => LoginScreen(),
           "/home": (context) => HomeScreen(),
+          "/course-details": (context) => CourseDetailsScreen(),
         },
       ),
     );

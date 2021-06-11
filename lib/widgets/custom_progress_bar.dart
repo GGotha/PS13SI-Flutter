@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class CustomProgressBar extends StatelessWidget {
   double value;
 
@@ -15,6 +16,8 @@ class CustomProgressBar extends StatelessWidget {
     if (value < 0.7) {
       return AlwaysStoppedAnimation(Colors.red);
     }
+
+    return AlwaysStoppedAnimation(Colors.green);
   }
 
   @override
